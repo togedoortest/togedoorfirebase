@@ -135,8 +135,8 @@ const LoginScreen = ({ login, isAuthenticated }) => {
         </div>
         <div className="login-window" >
           <div className="create-profile-div">
-            <Link to="/register">Don't have an account ?</Link>
-            <Button href="/register" id="create-button">
+            <Link to="#/register">Don't have an account ?</Link>
+            <Button href="#/register" id="create-button">
               Create Profile
               </Button>
           </div>
